@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: #129799;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.elementopai {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.elementofilho {;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: #F7F7F7;
+    padding: 2em;
+}
+
+.div {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+   
+    
+.insta {
+    width: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+   
+
+}
+.facebook {
+    width: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+}
+.in {
+    width: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  
+}
+.pinterest {
+    width: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
