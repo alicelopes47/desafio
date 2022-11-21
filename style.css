@@ -3,59 +3,198 @@
     padding: 0;
     box-sizing: border-box;
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header */
+#header{
+    width: 100%;
+    background-color:#129799;
+}
+.headerNav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.headerUl{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+} 
+
+.headerImg{
+    width: 30rem;
+    display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.headerDivOne{
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.headerDivTwo{
+    width: 100%;
+    height: 3rem; 
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+/* nao sei outra forma de sobrepor uma imagme e um texto */
+.divLogoNav{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+    top: 0.9rem;
+    left: 6rem;
+    /* margin-left:15rem ; */
+}
+.logoNav{
+z-index: 1;
+/* width: 70%;
+height: 70%; */
+display: flex;
+justify-content:center;
+align-items: center;
+
+/* justify-content:center; */
+/* align-items: center; */
+
+
+}
+
+
+.linkHover {
+    /* list-style: nome; */
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+   padding: 2rem;
+}
+.linkHover :hover{
+transition: ease-in-out 0.2s;
+transform: scale(1.1);
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size:1.5rem ;
+}
+a :hover{
+    transition: ease-in-out 0.2s;
+    transform: scale(1.7);
+    }
+h1{
+    color: white;
+font-size: 3rem;   
+}
+.listHover{
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+   padding-left: 5rem;
+
+}
+.listHover :hover{
+    transition: ease-in-out 0.2s;
+transform: scale(1.1);
+}
+
+body{
+    background-color: #129799;
+}
+
+
+main{
+    background-color: #FFA185;
+}
+
+p{
+    position: relative;
+    top: 3rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    left: 2rem;
+    top: 3rem;
+    font-size: 26px;
+}
+
+.aquarelaInfo{
+    height: 17vw;
+    width: 80vw;
+
+}
+
+.aquarela{
+    color: white;
+}
+
+#imagens {
+  height: 70vw;
+  align-items: center;
+  padding-left: 4rem;
+  padding-top: 1rem;
+
+}
+
+.imagem{
+    justify-content: space-between;
+    width: 35rem;
+    height: 25rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+
+h2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    position: relative;
+    left: 2rem;
+    top: 1rem;
+    font-size: 3rem;
+}
+
+.vejamais{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    color: black;
+    font-size: 2rem;
+}
 
 footer {
     background-color: #129799;
     width: 100%;
     font-family: 'Roboto', sans-serif;
-}
-
-.elementopai {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: flex-end;
-}
-
-.elementofilho {;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    color: #F7F7F7;
     padding: 2em;
 }
-
-.div {
+.elementopai {
     display: flex;
-    justify-content: start;
-    align-items: center;
-}
-   
-    
-.insta {
-    width: 30px;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-   
-
-}
-.facebook {
-    width: 30px;
-    display: flex;
-    justify-content: start;
-    align-items: center;
     
 }
-.in {
-    width: 30px;
-    display: flex;
-    justify-content: start;
+.elementofilho {
     align-items: center;
-  
+    color: #F7F7F7;
+    margin-left: 2em;
+    list-style: none;
 }
-.pinterest {
-    width: 30px;
+.content-icon {
     display: flex;
-    justify-content: start;
-    align-items: center;
+}
+
+.icon {
+  margin-right: 1em;
+   width: 30px;
 }
